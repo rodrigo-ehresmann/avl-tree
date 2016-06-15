@@ -15,7 +15,7 @@ avl[1] = "value"
 ## Development
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt or, alternatively, run `bundle console`. That will allow you to experiment. 
 
-## TODO:
+#### TODO:
   * Implement delete, retrieve, size and others useful methods.
 
 ## Contributing
