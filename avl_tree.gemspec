@@ -6,11 +6,12 @@ require 'avl_tree/version'
 Gem::Specification.new do |spec|
   spec.name          = "avl_tree"
   spec.version       = AvlTree::VERSION
-  spec.authors       = ["rodrigo-ehresmann"]
+  spec.authors       = ["Rodrigo Walter Ehresmann"]
   spec.email         = ["igoehresmann@gmail.com"]
 
   spec.summary       = %q{AVL tree implementation.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/rodrigo-ehresmann/avl-tree/"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
