@@ -12,6 +12,9 @@ avl = AVLTree.new
 avl[1] = "value"
 ```
 
+## Development
+Run `bin/console` for an interactive prompt that will allow you to experiment.
+
 ## TODO:
   * Implement delete, retrieve, size and others useful methods.
 
