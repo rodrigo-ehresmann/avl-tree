@@ -25,7 +25,7 @@ class AVLTree
         @right = @right.insert(key, value)
         @right.height = self.height + 1
       else
-        raise TypeError, "Cannot compare #{key} with #{@key}"
+        raise TypeError, "Cannot compare #{key} (#{key.class}) with #{@key} (#{@key.class})."
       end
       balance
     end
